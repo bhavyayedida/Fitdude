@@ -1,0 +1,143 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('pictures/man-2264825_1280.jpg');
+    height: 4550 px;
+    color: white;
+}
+.aboutbg {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('pictures/aboutbg.jpg');
+    height: 4550 px;
+    color: white;
+}
+.home{
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width:40%;
+}
+.home1 {
+    margin-left: 50px;
+    padding: 100px 100px 100px 100px;
+    margin-top: 40px;
+}
+.home1 td{
+    padding-right: 100px;
+}
+.about {
+     padding: 100px 50px 100px 50px;
+ }
+ 
+.home h3 {
+    text-align: center;
+
+}
+.home h1{
+    text-align: center;
+    font-size: 40px;
+}
+.start {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 300px;
+    width: 40%;
+}
+
+.start button {
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: lightpink;
+    color: white;
+}
+.start button:hover {
+    background-color: pink;
+}
+.left{
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.left div{
+    text-align: center;
+    color: white;
+}
+.left img{
+    filter: invert(100%);
+    width: 136px
+}
+.mid {
+    width: 45%;
+    margin: 40px auto;
+    display: block;
+}
+
+.navbar li {
+    display: inline;
+}
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px 12px;
+    }
+
+        .navbar li a:hover, .navbar li a.active {
+            text-decoration: underline;
+            color: bisque;
+        }
+
+.right {
+    width:15%;
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+.user {
+    width: 20%;
+    padding-top: 18px;
+    padding-left:10px;
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 22px;
+}
+.user a {
+        color: white;
+        text-decoration: none;
+        
+        font-size: 18px;
+ }
+.user a:hover {
+    color: bisque;
+    text-decoration: underline;
+}
+.login{
+    display: inline;
+}
+.icons li{
+    display: inline;
+}
+.icons li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size:18px;
+}
+.icons li a:hover{
+    color: bisque;
+    text-decoration: underline;
+}
+}
+.trainers td {
+    padding: 30px;
+}

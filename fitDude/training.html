@@ -1,0 +1,134 @@
+<! DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale="1">
+    <title> fitdude </title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <script src="https://kit.fontawesome.com/4e22d9ee53.js" crossorigin="anonymous"></script>
+    <style>
+        .heading {
+            text-align: center;
+            padding-top: 60px;
+        }
+        table tr{
+            border: 1px solid white;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            grid-gap: 100px;
+            margin: 10px 10px 50px 130px;
+        }
+
+        .card {
+            border-color: whitesmoke;
+            border-style: solid;
+            display: grid;
+            grid-template-rows: max-content 340px 1fr;
+        }
+        
+            
+    </style>
+</head>
+
+<body class="aboutbg">
+    <header class="header">
+        <!-- Left box for logo-->
+        <div class="left">
+            <div>
+                <img src="pictures/fitlogo.jpg" alt="logo" />
+                <h2> Fitdude</h2>
+            </div>
+
+        </div>
+
+        <!-- middle box for logo-->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="instructors.html">Instructors</a></li>
+                <li> <a href="training.html" class="active">Plans and pricing</a></li>
+            </ul>
+
+        </div>
+        <!-- login button-->
+        <div class="user">
+            <a href="login.html">Login</a>
+        </div>
+
+        <!-- right box for logo-->
+        <div class="right">
+            <ul class="icons">
+                <li><a href="https://www.youtube.com/channel/UCsLF0qPTpkYKq81HsjgzhwQ"> <i class="fab fa-youtube-square"></i> </a></li>
+                <li><a href="https://www.facebook.com/bhavya.yedida"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/bhavya_yedida/"><i class="fab fa-instagram-square"></i></a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="heading">
+        <h1>Choose your flexible plan</h1>
+    </div>
+    <div class="cards">
+        <article class="card">
+            <header>
+                <h2 align="center">Silver membership</h2>
+            </header>
+
+            <div class="content">
+                <p >
+                    <h1 align="center">$30</h1>
+                    <h3 align="center">Short-term trial for beginners</h3>
+                    <h3 align="center">Unlimited classes</h3>
+                    <h3 align="center">Fitness assesments</h3>
+                    <h3 align="center">Locker room with shower</h3>
+                    <h3 align="center"><button type="button" background-color="pink"> click here</button></h3>
+                </p>
+            </div>
+
+        </article>
+
+        <article class="card">
+            <header>
+                <h2 align="center">Gold membership</h2>
+            </header>
+            <div class="content">
+                <p>
+                    <h1 align="center">$30</h1>
+                    <h3 align="center">Short-term trial for beginners</h3>
+                    <h3 align="center">Unlimited classes</h3>
+                    <h3 align="center">Fitness assesments</h3>
+                    <h3 align="center">Locker room with shower</h3>
+                    <h3 align="center">Free parking</h3>
+                    <h3 align="center"><button type="button"> click here</button></h3>
+                </p>
+            </div>
+        </article>
+
+        <article class="card">
+            <header>
+                <h2 align="center">Platinum membership</h2>
+            </header>
+            <div class="content">
+                <p>
+                    <h1 align="center">$30</h1>
+                    <h3 align="center">Short-term trial for beginners</h3>
+                    <h3 align="center">Unlimited classes</h3>
+                    <h3 align="center">Fitness assesments</h3>
+                    <h3 align="center">Locker room with shower</h3>
+                    <h3 align="center">Free parking</h3>
+                    <h3 align="center">Guest privileges</h3>
+                    <h3 align="center"><button type="button"> click here</button></h3>
+                </p>
+            </div>
+        </article>
+
+    </div>
+
+
+</body>
+
+</html>
