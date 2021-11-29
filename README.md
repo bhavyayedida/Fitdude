@@ -1,7 +1,7 @@
 # Hey, Hi:wave: 
 
 ## About the Project :memo:
-fitdude is a fitness website. 
+fitdude is a fitness website that keeps the user fit abd healthy. 
 ## Built with 
 The project is built with some technologies:
 1. Web Technologies 
